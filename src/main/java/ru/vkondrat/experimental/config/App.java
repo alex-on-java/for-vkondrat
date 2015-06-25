@@ -16,8 +16,8 @@ public class App {
             put("order", 1);
         }});
         ScoringGB GB = new ScoringGB();
-        LP.loadConfiguration(new HashMap<String, Object>() {{
-            put("lpDir", "GB dir");
+        GB.loadConfiguration(new HashMap<String, Object>() {{
+            put("gbDir", "GB dir");
             put("item", "GB item");
             put("order", 2);
         }});
